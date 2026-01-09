@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Green_Sense/static/css/main.c912f1af.css",
+    "main.js": "/Green_Sense/static/js/main.28c19505.js",
+    "static/js/453.ffdea105.chunk.js": "/Green_Sense/static/js/453.ffdea105.chunk.js",
+    "static/media/Humidity_Icon.png": "/Green_Sense/static/media/Humidity_Icon.22c2acf00ba11e4933ef.png",
+    "static/media/Soil_Temp_Icon.png": "/Green_Sense/static/media/Soil_Temp_Icon.ca03b258bdbe9b5b7e3a.png",
+    "static/media/Fan_Icon.png": "/Green_Sense/static/media/Fan_Icon.a2c3e49a2ef607cc4e7b.png",
+    "static/media/K.png": "/Green_Sense/static/media/K.46513c36dd00f9823a0f.png",
+    "static/media/P.png": "/Green_Sense/static/media/P.484e8074e61267220796.png",
+    "static/media/N.png": "/Green_Sense/static/media/N.9a326b06e887556888a9.png",
+    "static/media/Moisture_Icon.png": "/Green_Sense/static/media/Moisture_Icon.5cc8dc249b37626f1d08.png",
+    "static/media/Temp_Icon.png": "/Green_Sense/static/media/Temp_Icon.1ab0d682b57dfb2a6a66.png",
+    "static/media/Battery_Icon.png": "/Green_Sense/static/media/Battery_Icon.7869a31e2e439bb89a5b.png",
+    "static/media/Octagon_Icon.png": "/Green_Sense/static/media/Octagon_Icon.44bbe2f42544c5c4127d.png",
+    "index.html": "/Green_Sense/index.html",
+    "main.c912f1af.css.map": "/Green_Sense/static/css/main.c912f1af.css.map",
+    "main.28c19505.js.map": "/Green_Sense/static/js/main.28c19505.js.map",
+    "453.ffdea105.chunk.js.map": "/Green_Sense/static/js/453.ffdea105.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c912f1af.css",
+    "static/js/main.28c19505.js"
+  ]
+}
