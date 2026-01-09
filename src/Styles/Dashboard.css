@@ -1,0 +1,54 @@
+.dashboard {
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  /* padding: 0px 5vw; */
+
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  width: 95vw;
+  margin-right: auto;
+  font-size: 2vw;
+  padding: 2vh 1vw;
+  border-radius: 1vw;
+  background-color: #c9ffc5;
+  box-shadow: 0px 0px 8px 0.01px rgba(0, 100, 0, 0.278);
+}
+
+.title_txt {
+  width: max-content;
+  text-shadow: 1px 1px 4px rgba(0, 100, 0, 0.6);
+  padding: 1vh 1vw;
+  border: 1px solid rgb(0, 160, 0);
+  border-radius: 1vw;
+  box-shadow: 0px 0px 8px 0.1px rgba(0, 100, 0, 0.6);
+  background-color: rgb(210, 255, 210);
+}
+
+.oct{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1vw;
+    border-radius: 1vw;
+    background-color: rgb(61, 206, 61);
+    padding: 2vh 1vw; 
+}
+
+.octa{
+    filter : invert(100%);
+    width:3vw;
+}
+
+.octa_txt{
+color:rgb(225, 255, 225);
+}

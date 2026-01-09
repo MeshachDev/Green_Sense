@@ -1,0 +1,1 @@
+https://api.thingspeak.com/channels/CHANNEL_ID/fields/FIELD_NUMBER.json?api_key=YOUR_READ_API_KEY&results=RESULT_COUNT
