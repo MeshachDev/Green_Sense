@@ -1,6 +1,6 @@
 .main_con {
   height: auto;
-  margin-top: 5vh;
+  margin-top: 1vh;
   width: 95vw;
   display: flex;
   align-items: center;
@@ -50,7 +50,7 @@ img {
 
 .parameters {
   height: auto;
-  margin-top: 5vh;
+  margin-top: 1vh;
   max-width: 60vw;
   min-width: auto;
   display: flex;
@@ -70,7 +70,7 @@ img {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 5vh;
+  margin-top: 1vh;
   gap: 2vw;
   row-gap: 3vw;
   border-radius: 1vw;

@@ -1,10 +1,9 @@
 import "../Styles/Dashboard.css";
 import Val_com from "./Val_com";
 import { useEffect, useState } from "react";
+import SensorInfo from "./SensorInfo";
 
-const chnl = "3027936";
-
-const Dashboard = () => {
+const Dashboard = (props) => {
   const [values, setValues] = useState({
     N: 0,
     P: 0,
@@ -15,11 +14,13 @@ const Dashboard = () => {
     Battery: 0,
   });
 
+  const [lastUpdate, setLastUpdate] = useState("0000-00-00T00:00:00Z");
+  const [entryID, setEntryID] = useState(0);
   useEffect(() => {
     const fetchThingSpeakData = async () => {
       try {
         const response = await fetch(
-          `https://api.thingspeak.com/channels/${chnl}/feeds/last.json`
+          `https://api.thingspeak.com/channels/${props.sensorChannelId}/feeds/last.json?results=1`
         );
 
         if (!response.ok) {
@@ -27,7 +28,9 @@ const Dashboard = () => {
         }
 
         const data = await response.json();
-
+        console.log("Fetched ThingSpeak data:", data);
+        setLastUpdate(data.created_at);
+        setEntryID(data.entry_id);
         setValues({
           N: Number(data.field1) || 0,
           P: Number(data.field2) || 0,
@@ -54,7 +57,8 @@ const Dashboard = () => {
     <div className="dashboard">
       <div className="title">
         <p className="title_txt">Dashboard</p>
-
+        <p className="sensor_txt">{props.sensor}</p>
+        <p className="sensor_update"></p>
         <div className="oct">
           <img
             className="octa"
@@ -64,7 +68,10 @@ const Dashboard = () => {
           <p className="octa_txt">Green Oasis</p>
         </div>
       </div>
-
+      <SensorInfo
+        lastupdate={lastUpdate}
+        entryID={entryID}
+      />
       <Val_com
         tag={[
           "Nitrogen",
