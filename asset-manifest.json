@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Green_Sense/static/css/main.30a86319.css",
-    "main.js": "/Green_Sense/static/js/main.2ad1de1a.js",
+    "main.css": "/Green_Sense/static/css/main.cdda59fb.css",
+    "main.js": "/Green_Sense/static/js/main.c5a65f0c.js",
     "static/js/453.ffdea105.chunk.js": "/Green_Sense/static/js/453.ffdea105.chunk.js",
     "static/media/Humidity_Icon.png": "/Green_Sense/static/media/Humidity_Icon.22c2acf00ba11e4933ef.png",
     "static/media/Soil_Temp_Icon.png": "/Green_Sense/static/media/Soil_Temp_Icon.ca03b258bdbe9b5b7e3a.png",
@@ -14,12 +14,12 @@
     "static/media/Battery_Icon.png": "/Green_Sense/static/media/Battery_Icon.7869a31e2e439bb89a5b.png",
     "static/media/Octagon_Icon.png": "/Green_Sense/static/media/Octagon_Icon.44bbe2f42544c5c4127d.png",
     "index.html": "/Green_Sense/index.html",
-    "main.30a86319.css.map": "/Green_Sense/static/css/main.30a86319.css.map",
-    "main.2ad1de1a.js.map": "/Green_Sense/static/js/main.2ad1de1a.js.map",
+    "main.cdda59fb.css.map": "/Green_Sense/static/css/main.cdda59fb.css.map",
+    "main.c5a65f0c.js.map": "/Green_Sense/static/js/main.c5a65f0c.js.map",
     "453.ffdea105.chunk.js.map": "/Green_Sense/static/js/453.ffdea105.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.30a86319.css",
-    "static/js/main.2ad1de1a.js"
+    "static/css/main.cdda59fb.css",
+    "static/js/main.c5a65f0c.js"
   ]
 }
