@@ -48,10 +48,10 @@ const Header = (props) => {
       <div className="time-date">
 
         <div className="date">
-          <p className="date_txt">Date : {time.toLocaleDateString("en-GB")}</p>
+          <p className="date_txt">Date : {time.toLocaleDateString("en-GB", { timeZone: "Asia/Kolkata" })}</p>
         </div>
         <div className="IST">
-          <p className="ist_txt">IST  {time.toLocaleTimeString()}</p>
+          <p className="ist_txt">IST  {time.toLocaleTimeString("en-GB" , {timeZone: "Asia/Kolkata"})}</p>
         </div>
         <div className="UTC">
           <p className="utc_txt">UTC  {time.toUTCString().slice(-12, -4)}</p>
@@ -97,4 +97,4 @@ export default Header;
 
 
 
-// https://api.thingspeak.com/channels/3027936/fields/2.json?api_key=40NYE8N6WHNK4GSI&results=5
+
