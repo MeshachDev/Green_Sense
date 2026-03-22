@@ -51,7 +51,7 @@ const Header = (props) => {
           <p className="date_txt">Date : {time.toLocaleDateString("en-GB", { timeZone: "Asia/Kolkata" })}</p>
         </div>
         <div className="IST">
-          <p className="ist_txt">  {time.toTimeString("en-GB", { hour12: false })}</p>
+          <p className="ist_txt">  {time.toLocaleTimeString("en-GB", { hour12: true })}</p>
         </div>
         <div className="UTC">
           <p className="utc_txt">UTC  {time.toUTCString().slice(-12, -4)}</p>
