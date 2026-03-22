@@ -119,6 +119,7 @@
   font-variant-numeric: tabular-nums;
   text-align: center;
   white-space: nowrap;
+  text-transform: uppercase;
 }
 
 .date_txt {
