@@ -11,7 +11,7 @@
 - 🌀 **Actuator status** – exhaust fan ON/OFF state
 - 🕒 **Time display** – current date, IST, and UTC clocks
 - 🔄 **Last update info** – timestamp (UTC & IST) and Entry ID of the latest ThingSpeak record
-- 📡 **Multi-sensor support** – switch between sensor nodes (e.g. *Sensor 5*) from the dashboard
+- 📡 **Multi-sensor support** – switch between sensor nodes (e.g. *Sensor 2*) from the dashboard
 - 🎨 Clean, card-based green UI
 
 ---
@@ -28,5 +28,3 @@
 | Humidity       | `field6`         | % |
 | Battery        | `field7`         | Volts |
 | Exhaust Fan    | `field8`         | `0` = OFF, `1` = ON |
-
-> ⚠️ Update this table to match your own channel field mapping.
