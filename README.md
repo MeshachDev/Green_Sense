@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# 🌱 Green Sense – IoT-Based Precision Agriculture Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Dashboard Screenshot](docs/dashboard.png)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+- 📊 **Live sensor monitoring** – Nitrogen (N), Phosphorus (P), Potassium (K), soil moisture, temperature, and humidity
+- 🔋 **Device health** – battery voltage of the sensor node
+- 🌀 **Actuator status** – exhaust fan ON/OFF state
+- 🕒 **Time display** – current date, IST, and UTC clocks
+- 🔄 **Last update info** – timestamp (UTC & IST) and Entry ID of the latest ThingSpeak record
+- 📡 **Multi-sensor support** – switch between sensor nodes (e.g. *Sensor 5*) from the dashboard
+- 🎨 Clean, card-based green UI
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📟 Data Fields
 
-### `npm test`
+| Dashboard Card | ThingSpeak Field | Unit / Notes |
+|----------------|------------------|--------------|
+| Nitrogen (N)   | `field1`         | mg/kg |
+| Phosphorus (P) | `field2`         | mg/kg |
+| Potassium (K)  | `field3`         | mg/kg |
+| Moisture       | `field4`         | % |
+| Temperature    | `field5`         | °C |
+| Humidity       | `field6`         | % |
+| Battery        | `field7`         | Volts |
+| Exhaust Fan    | `field8`         | `0` = OFF, `1` = ON |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> ⚠️ Update this table to match your own channel field mapping.
