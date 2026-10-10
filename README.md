@@ -1,6 +1,5 @@
 # 🌱 Green Sense – IoT-Based Precision Agriculture Dashboard
 
-![Dashboard Screenshot](docs/dashboard.png)
 
 ---
 
